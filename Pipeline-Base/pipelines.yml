@@ -29,7 +29,7 @@ pipelines:
         type: DockerBuild
         configuration:
           affinityGroup: narasimhapai_group
-          dockerFileLocation: .
+          dockerFileLocation: ./Pipeline-Base/
           dockerFileName: Dockerfile
           dockerImageName: docker.artifactory-cluster.soleng-us.jfrog.team/narasimhapai_pipeline
           dockerImageTag: ${run_number}
