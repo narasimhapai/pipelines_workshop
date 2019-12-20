@@ -42,7 +42,7 @@ pipelines:
         type: DockerPush
         configuration:
           affinityGroup: narasimhapai_group
-          targetRepository: docker-local #replace with your own Docker repo
+          targetRepository: docker-dev-local #replace with your own Docker repo
           integrations:
             - name: ArtifactoryHA
           inputSteps:
